@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Janoos — BICT (Hons) Undergraduate &amp; Full-Stack Developer</title>
+<meta name="description" content="Portfolio of Sivakanthan Janoos — B.ICT (Hons) undergraduate and aspiring full-stack developer based in Batticaloa, Sri Lanka." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="grid-tex"></div>
+
+<!-- ============ NAV ============ -->
+<header id="nav">
+  <div class="wrap nav-inner">
+    <a href="#hero" class="logo">Janoos<span class="dot">.</span></a>
+
+    <nav class="links" id="nav-links">
+      <a href="#hero" data-nav>Home</a>
+      <a href="#about" data-nav>About</a>
+      <a href="#skills" data-nav>Skills</a>
+      <a href="#projects" data-nav>Projects</a>
+      <a href="#experience" data-nav>Experience</a>
+      <a href="#events" data-nav>Events</a>
+      <a href="#education" data-nav>Education</a>
+      <a href="#contact" data-nav>Contact</a>
+    </nav>
+
+    <a href="#contact" class="talk-btn">
+      Let's Talk
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+    </a>
+
+    <button class="burger" id="burger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<div id="mobile-menu">
+  <a href="#hero" data-nav-mobile>Home</a>
+  <a href="#about" data-nav-mobile>About</a>
+  <a href="#skills" data-nav-mobile>Skills</a>
+  <a href="#projects" data-nav-mobile>Projects</a>
+  <a href="#experience" data-nav-mobile>Experience</a>
+  <a href="#events" data-nav-mobile>Events</a>
+  <a href="#education" data-nav-mobile>Education</a>
+  <a href="#contact" data-nav-mobile>Contact</a>
+</div>
+
+<!-- ============ HERO ============ -->
+<section id="hero">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <div class="avail reveal in"><span class="pulse"></span> Available for internships &amp; opportunities</div>
+
+        <h1 class="hero-h1 reveal in">Hi, I'm<br>Janoos<span class="accent-word">.</span></h1>
+
+        <p class="hero-role reveal in reveal-delay-1">BICT (Hons) Undergraduate &amp; Aspiring Full-Stack Developer.</p>
+
+        <p class="hero-para reveal in reveal-delay-2">B.ICT (Hons) undergraduate at the University of Vavuniya with a strong interest in full-stack web development, software engineering, UI/UX and problem solving — passionate about building useful, user-focused digital solutions and continuously improving my technical skills.</p>
+
+        <div class="hero-cta reveal in reveal-delay-2">
+          <a href="#projects" class="btn-fill">
+            View My Projects
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+          </a>
+          <a href="#contact" class="btn-outline">
+            Let's Talk
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+
+        <div class="hero-meta reveal in reveal-delay-3">
+          <a href="https://github.com/Sivakanthan-Janoos" target="_blank" rel="noopener" class="icon-link" aria-label="GitHub">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55 0-.27-.01-1.16-.02-2.11-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.75 2.7 1.25 3.36.95.1-.75.4-1.25.73-1.53-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.18-3.1-.12-.29-.51-1.46.11-3.05 0 0 .96-.31 3.15 1.18.91-.25 1.89-.38 2.86-.38.97 0 1.95.13 2.86.38 2.19-1.49 3.15-1.18 3.15-1.18.62 1.59.23 2.76.11 3.05.73.81 1.18 1.84 1.18 3.1 0 4.43-2.7 5.41-5.26 5.69.41.36.78 1.07.78 2.15 0 1.56-.01 2.81-.01 3.19 0 .3.21.66.79.55A10.52 10.52 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/sivakanthan-janoos" target="_blank" rel="noopener" class="icon-link" aria-label="LinkedIn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+          </a>
+          <a href="mailto:spicy.janoos@gmail.com" class="icon-link" aria-label="Email">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2.5" y="4.5" width="19" height="15" rx="1.5"/><path d="M3 6l9 7 9-7"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="reveal in reveal-delay-1">
+        <div class="portrait-wrap">
+          <div class="portrait-frame">
+            <div class="portrait-corner tl"></div>
+            <div class="portrait-corner br"></div>
+            <div class="scan-line" aria-hidden="true"></div>
+            <img src="assets/portrait.png" alt="Portrait of Sivakanthan Janoos, Software Engineering student and developer" />
+          </div>
+
+          <div class="code-symbol symbol-1" aria-hidden="true">&lt;/&gt;</div>
+          <div class="code-symbol symbol-2" aria-hidden="true">{ }</div>
+          <div class="code-symbol symbol-3" aria-hidden="true">01</div>
+          <div class="code-symbol symbol-4" aria-hidden="true">;</div>
+
+          <div class="code-chip chip-1" aria-hidden="true">&lt;<span class="dim">Developer</span> /&gt;</div>
+          <div class="code-chip chip-2" aria-hidden="true">{ status: <span style="color:var(--accent);">"coding"</span> }</div>
+          <div class="code-chip chip-3" aria-hidden="true">git commit -m <span class="dim">"build"</span></div>
+          <div class="code-chip chip-4" aria-hidden="true">npm run <span class="dim">dev</span></div>
+          <div class="code-chip chip-5" aria-hidden="true">const <span style="color:var(--accent);">dev</span> = true;</div>
+
+          <div class="portrait-tag"><span class="tw-prefix">//</span><span id="typewriter"></span><span class="tw-cursor">|</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-cue">
+    <a href="#about">
+      SCROLL
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+    </a>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section id="about" class="section-pad divider">
+  <div class="wrap">
+    <div class="about-grid">
+      <div class="reveal">
+        <div class="eyebrow">About</div>
+        <h2 class="about-lead">Building ideas into practical digital solutions.</h2>
+      </div>
+
+      <div class="reveal reveal-delay-1">
+        <div class="about-body">
+          <p>I'm a B.ICT (Hons) undergraduate at the University of Vavuniya with a strong interest in full-stack web development, software engineering, UI/UX and problem solving. I've built academic projects using a range of programming languages and modern web technologies, with practical, hands-on exposure to Git and GitHub.</p>
+          <p>I'm active in university technology communities through IEEE and the Mozilla Campus Club, and I'm passionate about building useful, user-focused digital solutions while continuously improving my technical skills.</p>
+          <p><strong style="color:var(--text); font-weight:600;">Career objective —</strong> to begin a professional career as a Full-Stack Developer, applying my knowledge of programming, web development, software engineering and problem solving to contribute to real-world projects while continuously developing my technical and professional skills.</p>
+          <p style="font-size:13.5px; color:var(--muted);">Languages: Tamil, English, Sinhala</p>
+        </div>
+
+        <div class="tech-chip-row">
+          <span class="tech-chip">Python</span>
+          <span class="tech-chip">Java</span>
+          <span class="tech-chip">C</span>
+          <span class="tech-chip">C++</span>
+          <span class="tech-chip">C#</span>
+          <span class="tech-chip">HTML</span>
+          <span class="tech-chip">CSS</span>
+          <span class="tech-chip">JavaScript</span>
+          <span class="tech-chip">Git</span>
+          <span class="tech-chip">GitHub</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="stats-grid reveal reveal-delay-2">
+      <div class="stat-cell">
+        <div class="stat-num"><span class="counter" data-target="3">0</span><span class="accent-word">+</span></div>
+        <div class="stat-label">PROJECTS COMPLETED</div>
+      </div>
+      <div class="stat-cell">
+        <div class="stat-num"><span class="counter" data-target="2">0</span><span class="accent-word">+</span></div>
+        <div class="stat-label">CERTIFICATES</div>
+      </div>
+      <div class="stat-cell">
+        <div class="stat-num"><span class="counter" data-target="9">0</span><span class="accent-word">+</span></div>
+        <div class="stat-label">TECHNOLOGIES</div>
+      </div>
+      <div class="stat-cell">
+        <div class="stat-num"><span class="counter" data-target="3">0</span><span class="accent-word">+</span></div>
+        <div class="stat-label">LEADERSHIP ROLES</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section id="skills" class="section-pad divider">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="eyebrow">Skills</div>
+      <h2 class="h2">What I work with.</h2>
+    </div>
+
+    <div class="skills-layout reveal reveal-delay-1">
+      <div class="skills-panel">
+        <div class="skills-panel-head">
+          <div class="skills-panel-title">Core Stack</div>
+          <div class="skills-panel-note">Proficiency</div>
+        </div>
+
+        <div class="skill-bar-item" data-progress="88">
+          <div class="skill-bar-top"><span class="skill-bar-name">Python</span><span class="skill-bar-pct">0%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill"></div></div>
+        </div>
+        <div class="skill-bar-item" data-progress="85">
+          <div class="skill-bar-top"><span class="skill-bar-name">HTML &amp; CSS</span><span class="skill-bar-pct">0%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill"></div></div>
+        </div>
+        <div class="skill-bar-item" data-progress="78">
+          <div class="skill-bar-top"><span class="skill-bar-name">JavaScript</span><span class="skill-bar-pct">0%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill"></div></div>
+        </div>
+        <div class="skill-bar-item" data-progress="82">
+          <div class="skill-bar-top"><span class="skill-bar-name">Java</span><span class="skill-bar-pct">0%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill"></div></div>
+        </div>
+        <div class="skill-bar-item" data-progress="75">
+          <div class="skill-bar-top"><span class="skill-bar-name">C / C++</span><span class="skill-bar-pct">0%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill"></div></div>
+        </div>
+        <div class="skill-bar-item" data-progress="80">
+          <div class="skill-bar-top"><span class="skill-bar-name">Git &amp; GitHub</span><span class="skill-bar-pct">0%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill"></div></div>
+        </div>
+      </div>
+
+      <div class="skills-panel">
+        <div class="skills-panel-head">
+          <div class="skills-panel-title">Toolkit &amp; Focus</div>
+          <div class="skills-panel-note">Areas</div>
+        </div>
+
+        <div class="skill-group">
+          <div class="skill-group-label"><span class="n">01</span> Languages</div>
+          <div class="skill-pill-row">
+            <span class="skill-pill">Python</span><span class="skill-pill">Java</span><span class="skill-pill">C</span><span class="skill-pill">C++</span><span class="skill-pill">C#</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-group-label"><span class="n">02</span> Development</div>
+          <div class="skill-pill-row">
+            <span class="skill-pill">Object-Oriented Programming</span><span class="skill-pill">Problem Solving</span><span class="skill-pill">Basic Software Development</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-group-label"><span class="n">03</span> Other Interests</div>
+          <div class="skill-pill-row">
+            <span class="skill-pill">Full-Stack Development</span><span class="skill-pill">UI/UX Design</span><span class="skill-pill">DevOps</span><span class="skill-pill">Networking</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-group-label"><span class="n">04</span> Soft Skills</div>
+          <div class="skill-pill-row">
+            <span class="skill-pill">Problem Solving</span><span class="skill-pill">Teamwork</span><span class="skill-pill">Leadership</span><span class="skill-pill">Communication</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section id="projects" class="section-pad divider">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="eyebrow">Selected Work</div>
+      <h2 class="h2">Featured Projects</h2>
+    </div>
+
+    <div style="margin-top:20px;">
+      <div class="project-row reveal">
+        <div class="p-media">
+          <div class="p-media-inner-scale">
+            <img src="assets/projects/hospital-management-system.jpg" alt="Hospital Management System interface showing patient records, appointment scheduler and billing module" loading="lazy" />
+          </div>
+        </div>
+        <div class="p-info">
+          <div class="p-num">01</div>
+          <h3 class="p-title">Hospital Management System</h3>
+          <p class="p-desc"><strong style="color:var(--text);">Problem:</strong> Hospital-related information and core management activities were handled without a centralized, structured system.<br><br><strong style="color:var(--text);">Contribution:</strong> Developed an academic software project to manage hospital-related information end to end, streamlining core administrative workflows.</p>
+          <div class="p-tags">
+            <span class="p-tag">Academic Project</span><span class="p-tag">Software Development</span><span class="p-tag">Problem Solving</span>
+          </div>
+          <div class="p-links">
+            <a href="https://github.com/Sivakanthan-Janoos/hospital_managment_Sys" target="_blank" rel="noopener" class="p-link">
+              GitHub
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M7 7h10v10"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-row flip reveal">
+        <div class="p-media">
+          <div class="p-media-inner-scale">
+            <img src="assets/projects/photo-gallery-website.jpg" alt="Photo Gallery Website interface showing image gallery, tagging metadata and web analytics" loading="lazy" />
+          </div>
+        </div>
+        <div class="p-info">
+          <div class="p-num">02</div>
+          <h3 class="p-title">Photo Gallery Website</h3>
+          <p class="p-desc"><strong style="color:var(--text);">Problem:</strong> Images needed an organized, user-friendly way to be presented and browsed on the web.<br><br><strong style="color:var(--text);">Contribution:</strong> Designed and developed a responsive, web-based photo gallery for organizing and presenting images through a clean, user-friendly interface.</p>
+          <div class="p-tags">
+            <span class="p-tag">HTML</span><span class="p-tag">CSS</span><span class="p-tag">JavaScript</span>
+          </div>
+          <div class="p-links">
+            <a href="https://github.com/Sivakanthan-Janoos" target="_blank" rel="noopener" class="p-link">
+              GitHub
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M7 7h10v10"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-row reveal">
+        <div class="p-media">
+          <div class="p-media-inner-scale">
+            <img src="assets/projects/vanni-ice-uiux-prototype.jpg" alt="VANNI-ICE UI/UX prototype dashboard showing analytics, heatmaps and route tracking screens" loading="lazy" />
+          </div>
+        </div>
+        <div class="p-info">
+          <div class="p-num">03</div>
+          <h3 class="p-title">VANNI-ICE UI/UX Prototype</h3>
+          <p class="p-desc"><strong style="color:var(--text);">Problem:</strong> A concept needed a clear, well-structured interface before any development work could begin.<br><br><strong style="color:var(--text);">Contribution:</strong> Created a UI/UX prototype with emphasis on user experience, interface structure, navigation and visual presentation.</p>
+          <div class="p-tags">
+            <span class="p-tag">UI/UX Design</span><span class="p-tag">Prototyping</span>
+          </div>
+          <div class="p-links">
+            <a href="https://www.linkedin.com/posts/sivakanthan-janoos_uiux-design-uxdesign-activity-7447359725123579904-LBAq?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAGRZSG4ByKmxONU9G9r9k8hvg_10bGIuEnY" target="_blank" rel="noopener" class="p-link">
+              LinkedIn
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M7 7h10v10"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <p class="reveal" style="margin-top:40px; font-size:14px; color:var(--muted);">More academic projects and experiments are available on <a href="https://github.com/Sivakanthan-Janoos" target="_blank" rel="noopener" style="color:var(--accent); border-bottom:1px solid var(--accent);">GitHub</a>.</p>
+  </div>
+</section>
+
+<!-- ============ EXPERIENCE & ACTIVITIES ============ -->
+<section id="experience" class="section-pad divider">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="eyebrow">Leadership &amp; Involvement</div>
+      <h2 class="h2">Experience &amp; Activities</h2>
+    </div>
+
+    <div style="margin-top:20px;">
+      <div class="tl-item reveal">
+        <div class="tl-year">Current</div>
+        <div>
+          <h3 class="tl-title">Finance Team Lead — AUTOMATION VERTEX</h3>
+          <div class="tl-org">IEEE Student Branch of UOV</div>
+          <p class="tl-desc">Leading the finance team for AUTOMATION VERTEX, an initiative under the IEEE Student Branch of the University of Vavuniya.</p>
+          <div class="tl-tags">
+            <span class="tl-badge">Leadership</span>
+            <span class="tl-badge">Finance</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="tl-item reveal">
+        <div class="tl-year">Current</div>
+        <div>
+          <h3 class="tl-title">Member</h3>
+          <div class="tl-org">IEEE Student Branch of UOV</div>
+          <p class="tl-desc">Active member of the IEEE Student Branch, engaging with technology-focused activities and the wider student engineering community.</p>
+          <div class="tl-tags">
+            <span class="tl-badge">Community</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="tl-item reveal">
+        <div class="tl-year">Current</div>
+        <div>
+          <h3 class="tl-title">Secretary Team Member — UOV NEXUS</h3>
+          <div class="tl-org">Mozilla Campus Club UOV</div>
+          <p class="tl-desc">Serving on the secretary team for UOV NEXUS under the Mozilla Campus Club, supporting club activities and technology events.</p>
+          <div class="tl-tags">
+            <span class="tl-badge">Organization</span>
+            <span class="tl-badge">Communication</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="tl-item reveal">
+        <div class="tl-year">Certificates</div>
+        <div>
+          <h3 class="tl-title">HackerRank — Problem Solving (Basic)</h3>
+          <div class="tl-org">Certified problem-solving skills</div>
+          <p class="tl-desc">Earned certification validating foundational problem-solving ability on HackerRank.</p>
+          <div class="tl-tags">
+            <span class="tl-badge">Problem Solving</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="tl-item reveal">
+        <div class="tl-year">Certificates</div>
+        <div>
+          <h3 class="tl-title">Python for Beginners</h3>
+          <div class="tl-org">Completed beginner-level Python learning</div>
+          <p class="tl-desc">Completed a beginner-level course covering Python fundamentals.</p>
+          <div class="tl-tags">
+            <span class="tl-badge">Python</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EVENTS & COMPETITIONS ============ -->
+<section id="events" class="section-pad divider">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="eyebrow">Competitions</div>
+      <h2 class="h2">Events &amp; Competitions</h2>
+    </div>
+
+    <div style="margin-top:20px;">
+      <div class="tl-item reveal">
+        <div class="tl-year">2025</div>
+        <div>
+          <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap; margin-bottom:2px;">
+            <h3 class="tl-title" style="margin-bottom:0;">InnovateX Hackathon 2025</h3>
+            <span class="tl-badge" style="color:#0A0A0A; background:var(--accent); border-color:var(--accent);">🏆 1st Place</span>
+          </div>
+          <div class="tl-org">Individual Non-AI Battle — University of Vavuniya</div>
+          <p class="tl-desc">Secured 1st place in the InnovateX Hackathon 2025 Individual Non-AI Battle competition, organized by VanniXtreme 2.0 under the IEEE Student Branch, University of Vavuniya.</p>
+          <div class="tl-tags">
+            <span class="tl-badge">VanniXtreme 2.0</span>
+            <span class="tl-badge">IEEE Student Branch, UOV</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="tl-item reveal">
+        <div class="tl-year">18–19 Jul 2026</div>
+        <div>
+          <h3 class="tl-title">UOJ Coders v5.0</h3>
+          <div class="tl-org">Participant — University of Jaffna</div>
+          <p class="tl-desc">Participated in UOJ Coders v5.0, a coding-focused event organized by the Computer Society and the Department of Computer Science, University of Jaffna.</p>
+          <div class="tl-tags">
+            <span class="tl-badge">The Computer Society, UOJ</span>
+            <span class="tl-badge">Dept. of Computer Science, UOJ</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="tl-item reveal">
+        <div class="tl-year">1 May 2026</div>
+        <div>
+          <h3 class="tl-title">06 Hour Cyber Battle — Hydra CTF 2026</h3>
+          <div class="tl-org">Team Member, RULE BREAKERZ</div>
+          <p class="tl-desc">Participated in the 06 Hour Cyber Battle, Hydra CTF 2026, as a member of Team RULE BREAKERZ.</p>
+          <div class="tl-tags">
+            <span class="tl-badge">Leo Club of University of Vavuniya</span>
+            <span class="tl-badge">Mozilla Campus Club UOV</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EDUCATION ============ -->
+<section id="education" class="section-pad divider">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="eyebrow">Education</div>
+      <h2 class="h2">Academic background.</h2>
+    </div>
+
+    <div style="margin-top:20px;">
+      <div class="tl-item reveal">
+        <div class="tl-year">Present</div>
+        <div>
+          <h3 class="tl-title">B.ICT (Hons) — University of Vavuniya</h3>
+          <div class="tl-org">Bachelor of Information and Communication Technology (Honours), Sri Lanka</div>
+          <p class="tl-desc">Undergraduate coursework spanning programming, object-oriented design, web development and software engineering, paired with hands-on project work and involvement in university technology communities.</p>
+          <div class="tl-tags">
+            <span class="tl-badge">ICT</span>
+            <span class="tl-badge">Software Engineering</span>
+            <span class="tl-badge">Web Development</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="tl-item reveal">
+        <div class="tl-year">2022</div>
+        <div>
+          <h3 class="tl-title">G.C.E. Advanced Level</h3>
+          <div class="tl-org">BT/PD/Kaluthavalai M.V. (N.S.), Batticaloa, Sri Lanka — Technology Stream</div>
+          <p class="tl-desc">Science for Technology: A &nbsp;•&nbsp; Engineering Technology: C &nbsp;•&nbsp; ICT: C</p>
+          <div class="tl-tags">
+            <span class="tl-badge">Technology Stream</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DEVELOPMENT JOURNEY ============ -->
+<section id="journey" class="section-pad divider">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="eyebrow">Growth</div>
+      <h2 class="h2">Development Journey</h2>
+    </div>
+
+    <div class="journey-track">
+      <div class="journey-item reveal">
+        <div class="journey-dot"></div>
+        <div class="journey-num">01</div>
+        <div class="journey-title">Started Programming</div>
+        <div class="journey-desc">Learned the fundamentals — logic, syntax and problem solving through Python, Java, C, C++ and C#.</div>
+      </div>
+      <div class="journey-item reveal reveal-delay-1">
+        <div class="journey-dot"></div>
+        <div class="journey-num">02</div>
+        <div class="journey-title">Web Development</div>
+        <div class="journey-desc">Moved into HTML, CSS and JavaScript to build for the browser.</div>
+      </div>
+      <div class="journey-item reveal reveal-delay-1">
+        <div class="journey-dot"></div>
+        <div class="journey-num">03</div>
+        <div class="journey-title">Software Development</div>
+        <div class="journey-desc">Applied object-oriented programming to build structured, academic software projects.</div>
+      </div>
+      <div class="journey-item reveal reveal-delay-2">
+        <div class="journey-dot"></div>
+        <div class="journey-num">04</div>
+        <div class="journey-title">UI/UX Design</div>
+        <div class="journey-desc">Developed an interest in interface structure, navigation and visual presentation.</div>
+      </div>
+      <div class="journey-item reveal reveal-delay-2">
+        <div class="journey-dot"></div>
+        <div class="journey-num">05</div>
+        <div class="journey-title">Community Involvement</div>
+        <div class="journey-desc">Joined IEEE Student Branch and Mozilla Campus Club at University of Vavuniya.</div>
+      </div>
+      <div class="journey-item reveal reveal-delay-3">
+        <div class="journey-dot"></div>
+        <div class="journey-num">06</div>
+        <div class="journey-title">Real-World Projects</div>
+        <div class="journey-desc">Shipped complete builds — from a hospital management system to UI prototypes.</div>
+      </div>
+      <div class="journey-item reveal reveal-delay-3">
+        <div class="journey-dot"></div>
+        <div class="journey-num">07</div>
+        <div class="journey-title">Continuous Learning</div>
+        <div class="journey-desc">Now growing toward full-stack development, DevOps and networking.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ AREAS OF INTEREST ============ -->
+<section id="learning" class="section-pad divider">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="eyebrow">Right Now</div>
+      <h2 class="h2">Areas of Interest</h2>
+    </div>
+
+    <div class="learn-grid reveal reveal-delay-1" style="grid-template-columns:repeat(2,1fr);">
+      <div class="learn-card">
+        <div class="lc-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12a9 9 0 1 0 18 0 9 9 0 0 0-18 0z"/><path d="M3 12h18M12 3a13 13 0 0 1 0 18M12 3a13 13 0 0 0 0 18"/></svg></div>
+        <div class="lc-title">Full-Stack Development</div>
+      </div>
+      <div class="learn-card">
+        <div class="lc-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg></div>
+        <div class="lc-title">UI/UX Design</div>
+      </div>
+      <div class="learn-card">
+        <div class="lc-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17.5 19a4.5 4.5 0 0 0 0-9 6 6 0 0 0-11.6-1.8A4 4 0 0 0 6.5 16"/></svg></div>
+        <div class="lc-title">DevOps</div>
+      </div>
+      <div class="learn-card">
+        <div class="lc-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="5" cy="6" r="2"/><circle cx="19" cy="6" r="2"/><circle cx="12" cy="18" r="2"/><path d="M5 8v3a2 2 0 0 0 2 2h2m8-5v3a2 2 0 0 1-2 2h-2m-2 0v3"/></svg></div>
+        <div class="lc-title">Networking</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CV ============ -->
+<section id="cv" class="section-pad divider">
+  <div class="wrap" style="text-align:center;">
+    <div class="reveal" style="display:flex; flex-direction:column; align-items:center;">
+      <div class="eyebrow">Resume</div>
+      <h2 class="h2" style="max-width:600px;">View or download my CV.</h2>
+      <p style="color:var(--text-2); font-size:15.5px; margin-top:20px; max-width:480px;">A full, up-to-date professional CV covering my education, skills, projects and activities in detail.</p>
+      <div class="cta-btns" style="margin-top:38px;">
+        <a href="assets/Sivakanthan_Janoos_CV.pdf" target="_blank" rel="noopener" class="btn-outline">
+          View CV
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M1 12s4-7 11-7 11 7 11 7-4 7-11 7-11-7-11-7z"/><circle cx="12" cy="12" r="3"/></svg>
+        </a>
+        <a href="assets/Sivakanthan_Janoos_CV.pdf" download class="btn-fill">
+          Download CV
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 3v12m0 0l-4-4m4 4l4-4M4 21h16"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SOCIAL CTA ============ -->
+<section id="social-cta">
+  <div class="wrap reveal">
+    <h2 class="cta-h">Let's connect and build something <span class="accent-word">meaningful</span>.</h2>
+    <div class="cta-btns">
+      <a href="https://github.com/Sivakanthan-Janoos" target="_blank" rel="noopener" class="btn-outline">
+        GitHub
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+      <a href="https://www.linkedin.com/in/sivakanthan-janoos" target="_blank" rel="noopener" class="btn-outline">
+        LinkedIn
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section id="contact" class="section-pad">
+  <div class="wrap">
+    <div class="contact-grid">
+      <div class="reveal">
+        <div class="eyebrow">Contact</div>
+        <h2 class="h2">Let's build something together.</h2>
+        <p style="color:var(--text-2); font-size:15.5px; line-height:1.75; margin-top:22px; max-width:440px;">I'm always interested in learning, collaborating, participating in technology projects and exploring new opportunities.</p>
+        <a href="mailto:spicy.janoos@gmail.com" class="btn-fill" style="margin-top:36px;">
+          Let's Talk
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+
+      <div class="reveal reveal-delay-1">
+        <div class="contact-row">
+          <span class="contact-label">EMAIL</span>
+          <a href="mailto:spicy.janoos@gmail.com" class="contact-value">spicy.janoos@gmail.com</a>
+        </div>
+        <div class="contact-row">
+          <span class="contact-label">GITHUB</span>
+          <a href="https://github.com/Sivakanthan-Janoos" target="_blank" rel="noopener" class="contact-value">Sivakanthan-Janoos</a>
+        </div>
+        <div class="contact-row">
+          <span class="contact-label">LINKEDIN</span>
+          <a href="https://www.linkedin.com/in/sivakanthan-janoos" target="_blank" rel="noopener" class="contact-value">sivakanthan-janoos</a>
+        </div>
+        <div class="contact-row">
+          <span class="contact-label">LOCATION</span>
+          <span class="contact-value">Batticaloa, Sri Lanka</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <a href="#hero" class="logo">Janoos<span class="dot">.</span></a>
+      <div class="footer-mid">BICT (Hons) Undergraduate • Full-Stack Developer</div>
+      <div class="footer-links">
+        <a href="https://github.com/Sivakanthan-Janoos" target="_blank" rel="noopener" class="icon-link" aria-label="GitHub">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55 0-.27-.01-1.16-.02-2.11-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.75 2.7 1.25 3.36.95.1-.75.4-1.25.73-1.53-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.18-3.1-.12-.29-.51-1.46.11-3.05 0 0 .96-.31 3.15 1.18.91-.25 1.89-.38 2.86-.38.97 0 1.95.13 2.86.38 2.19-1.49 3.15-1.18 3.15-1.18.62 1.59.23 2.76.11 3.05.73.81 1.18 1.84 1.18 3.1 0 4.43-2.7 5.41-5.26 5.69.41.36.78 1.07.78 2.15 0 1.56-.01 2.81-.01 3.19 0 .3.21.66.79.55A10.52 10.52 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/sivakanthan-janoos" target="_blank" rel="noopener" class="icon-link" aria-label="LinkedIn">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+        </a>
+        <a href="mailto:spicy.janoos@gmail.com" class="icon-link" aria-label="Email">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2.5" y="4.5" width="19" height="15" rx="1.5"/><path d="M3 6l9 7 9-7"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span class="footer-copy">© 2026 Janoos. All rights reserved.</span>
+      <a href="#hero" class="to-top">
+        Back to top
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+      </a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
